@@ -1,0 +1,56 @@
+.modal {
+    position: fixed;
+    top: 20%;
+    left:5%;
+    width:90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#config-error {
+    color:brown;
+    display: none;
+}
+
+.error input {
+    border-color: rgb(92, 8, 8);
+    background-color: #FFDADC; 
+}
+
+#config-overlay {
+    display: none;
+}
+
+#backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+@media (min-width:48rem) {
+    .modal {
+        top: 20%;
+        left:calc(50% - 20rem);
+        width: 40rem;
+    }
+}
+
+.form-control {
+    margin: 0.5rem 0;
+}
+
+.form-control label {
+ margin-right: 3rem;
+ font-weight: 600;
+}
+
+.form-control input {
+    font: inherit;
+    width: 15rem;
+}

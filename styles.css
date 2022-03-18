@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background-color: #F6EFF7;
+    margin:0;
+    color: rgb(44, 41, 44);
+  }
+
+header {
+    color:#ffffff;
+    background-color:#8328FA;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.player-box{
+    padding: 30px 100px;
+    border-radius: 5px;
+    background-color:#F1E4FE;
+    margin: 0 50px;
+}
+
+#main-section {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.player-names {
+    color:#3B2848;
+}
+
+
+#main-section h2 {
+    color:#21083F;
+}
+
+
+#main-section a {
+    color:#55169A;
+    text-decoration: none;
+}
+
+#main-section a:hover {
+    background-color:#d0cbd4;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#game-configuration {
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn {
+  background-color:#8328FA;
+  color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  /**   border-radius: 0.5rem 1.5rem; -> très stylé **/
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  font-family: inherit;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-alt {
+background-color: transparent;
+color: #8328FA;
+}
+
+.btn:hover {
+background-color: #af75fa;
+color: white;
+}
+
+.btn-alt:hover {
+background-color: #641fbe;
+color: white;
+}
+
+#btn-start {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+#cancel-confirm-btn {
+    margin : 1rem auto;
+}
